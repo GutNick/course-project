@@ -9,7 +9,6 @@ const runApp = async () => {
                         console.debug("App dev run")
                     })
                 })
-
     }
 }
 
