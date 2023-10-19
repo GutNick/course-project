@@ -1,12 +1,14 @@
 import { getPage } from "../../shared/lib/index.js";
 import { Button } from "../../shared/ui/button/index.js";
+import { Header } from "../../widgets/header/index.js";
 
 export default () => {
 
     return getPage({
         title: "Главная",
         body: `
-            <h1>Главная</h1>
+${Header()}
+            <h1>Главная1</h1>
             ${Button({
             label: "Тест",
             extraAttrs: {
