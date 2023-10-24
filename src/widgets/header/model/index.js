@@ -15,8 +15,6 @@ export default class HeaderModel {
 
         this.node = document.querySelector(HeaderModel.selector);
         HeaderModel.instance = this;
-
-        console.debug(HeaderModel.instance)
     }
 
 }

@@ -15,7 +15,7 @@ export function Header(props) {
     return `
             <header  class="${getClassName("", extraClasses)}" ${getAttrs(extraAttrs)} data-js-header="" >
             <div class="${getClassName("logo")}">
-                ${Logo()}
+                ${Logo({ imgSrc: "/icons/logo.svg" })}
             </div>
             <div class="${getClassName("nav")}">Nav</div>
             </header>
